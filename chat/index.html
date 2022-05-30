@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+</head>
+<body>
+    <div class="msg-container">
+        <header class="chat-header">
+            <h3 class="fa-regular fa-arrow-left" id="back-btn"></h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="Avatar" class="header-avatar">
+            <h3 class="header-name"></h3>
+        </header>
+        <div class="chat-scroll">
+            <div class="message-list">
+
+            </div>
+        </div>
+        <div class="chat-input">
+            <div class="chat-textarea" contenteditable="true"></div>
+            <button title="Send" class="send-button" type="button">
+                <i class="fa-regular fa-paper-plane-top"></i>
+            </button>
+        </div>
+    </div>
+    <script src="/node_modules/js-cookie/dist/js.cookie.min.mjs" type="module"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
